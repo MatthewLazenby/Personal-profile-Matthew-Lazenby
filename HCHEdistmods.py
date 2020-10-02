@@ -42,7 +42,7 @@ txtbx_tail_len.grid(row = 4, column = 1)
 
 def dist_nozz_caps():
     count = 0
-    test_4 = "!@#$%^&*()_+=<>,?/':;{}[]\|`~"
+    test_4 = "!@#$%^&*()_+=<>,?/':;{}[]\|`~-"
     for i in np.arange(0, len(txtbx_evap_t.get()), 1):
         for j in np.arange(0, len(test_4), 1):
             if txtbx_evap_t.get()[i] == test_4[j]:
